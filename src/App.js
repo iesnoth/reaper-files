@@ -1,11 +1,12 @@
 import {useState} from 'react'
+import Home from './components/Home'
 
 function App() {
-  let [serach,setSearch] = useState('')
+  let [search,setSearch] = useState('')
   let[data, setData] = useState([])
   return (
     <div className="App">
-      Sup
+      <Home/>
     </div>
   );
 }
