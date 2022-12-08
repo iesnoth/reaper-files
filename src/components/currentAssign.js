@@ -2,7 +2,7 @@
 //a name, place, possibly cause of death
 //the date should be the current date and a time somewhere in the future
 
-const currentAssign = () => {
+const CurrentAssign = () => {
     return(
         <div>
          <h1>current assignments</h1>
@@ -10,4 +10,4 @@ const currentAssign = () => {
     )
 }
 
-export default currentAssign
+export default CurrentAssign

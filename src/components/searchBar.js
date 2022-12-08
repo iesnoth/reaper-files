@@ -1,6 +1,6 @@
 //searchBar is a child of obitResults, and should be inserted there
 
-const searchBar = () => {
+const SearchBar = () => {
     return(
         <div>
          <h1>Search bar</h1>
@@ -8,4 +8,4 @@ const searchBar = () => {
     )
 }
 
-export default searchBar
+export default SearchBar
